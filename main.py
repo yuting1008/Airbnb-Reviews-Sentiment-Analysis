@@ -292,6 +292,3 @@ for i in range(final_n_clusters):
   print("\n\nCluster {} :".format(i))
   for ind in order_centroids[i, :15]:
     print(TFIDF_vectorizer.get_feature_names()[ind])
-
-selected_negative_voc = []
-for i in selected_negative_voc:
